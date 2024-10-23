@@ -1,0 +1,924 @@
+
+@font-face {
+   font-family: 'Times New Roman',  serif;
+   src: url(TimesnewRoman\timesnewromanbold.ttf);
+}
+
+@import url('https://fonts.cdnfonts.com/css/arial-2');
+*{
+    margin: 0;
+}
+
+/* common */
+.container{
+    max-width: 1324px;
+    padding: 0px 20px;
+    margin: auto;
+}
+
+.cmn-head{
+   font-family: 'Times New Roman',  serif;
+   font-size: 45px;
+   font-weight: 500;
+   color: #008735;
+}
+
+.cmn-pera{
+   font-family: 'Times New Roman', serif;
+   font-size: 20px;
+   font-weight: 400;
+   color: #000000;
+}
+
+.cmn-btn{
+   font-family: 'Times New Roman', serif;
+   font-size: 22px;
+   font-weight: 400;
+   color: #FFFFFF;
+   text-decoration: none;
+   padding:15px 42px ;
+   background-color: #F9C25E;
+   border-radius: 14px;
+}
+
+.cmn-btn2{
+   font-family: 'Times New Roman', serif;
+   font-size: 24px;
+   font-weight: 400;
+   color: #FFFFFF;
+   text-decoration: none;
+   padding: 18px 52px;
+   background-color: #248249;
+   border-radius: 18px;
+   
+}
+
+/* top navbar */
+
+.top-navbar{
+    background-color: #ECECEC;
+    padding: 13px 0px;
+}
+
+.top-main-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-child-div a {
+   font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #38AF67;
+    padding: 0px 9px;
+    text-decoration: none;
+}
+
+.top-child-div i{
+margin: 0px 10px;
+}
+
+.fa-instagram{
+   color: white;
+    font-size: 15px;
+   background-color: black;
+   padding: 8px 9px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.fa-twitter{
+    color: white;
+     font-size: 15px;
+    background-color: black;
+    padding: 8px 8px;
+     border-radius: 50%;
+     text-align: center;
+ }
+
+ .fa-facebook-f{
+    color: white;
+     font-size: 15px;
+    background-color: black;
+    padding: 8px 9px;
+     border-radius: 50%;
+ }
+
+ /* middel navbar */
+
+ .middel-navbar{
+    background-color: #FFFFFF;
+    padding: 16px 0px;
+ }
+
+ .middel-main-div{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .middel-child-div a{
+text-decoration: none;
+ }
+
+ .middel-child-div img{
+   width: 313px;
+   height: 108px;
+    }
+
+ .middel-child-div span{
+    font-family: 'Times New Roman', serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #000000;
+    padding: 7px 0px;
+    display: block;
+ }
+
+ .snap-div{
+   display: inline-block;
+ }
+
+ .fa-user{
+    color: white;
+     font-size: 60px;
+    background-color:#008735;
+    padding: 21px 26px;
+     border-radius: 50%;
+ }
+
+ /* butten navbar */
+
+ .butten-navbar{
+    background-color: #5DBD77;
+    }
+
+ .butten-main-div{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .butten-child-div ul li{
+list-style: none;
+display: inline-block;
+margin: 42px 0px;
+margin-right: 20px;
+ }
+ 
+ .butten-child-div ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+ }
+
+ .fa-cart-shopping{
+    color: #F9C25E;
+    background-color: #FFFFFF;
+    font-size: 25px;
+    padding: 18px 18px;
+    border-radius: 50%;
+    margin-top: 20px;
+ }
+
+ .fa-magnifying-glass{
+    color: #ACACAC;
+    background-color: #FFFFFF;
+    font-size: 25px;
+    padding:18px 18px;
+    border-radius: 50%;
+    
+ }
+
+ .butten-child-div a{
+    padding:0px 10px;
+ }
+
+ /* banner sec */
+
+ .banner-sec{
+   background-image:url(../image/banner.png);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding:150px 0px;
+   
+ }
+ .banner-main-div span{
+   font-family: 'Times New Roman', serif;
+   font-size: 33px;
+   font-weight: 500;
+   color: #EAFF00;
+ }
+/* ////////////// */
+ .banner-main-div span::before{
+   content: "";
+    position: absolute;
+    /* display: inline-block; */
+    margin-top: 18px;
+    min-width: 10px;
+    min-height: 3px;
+    background-color: #EAFF00;
+    margin-left: -10px;
+ }
+ /* /////////// */
+
+ .banner-main-div h1{
+   font-family: 'Times New Roman', serif;
+   font-size: 75px;
+   font-weight: 500;
+   color: #ffffff;
+   padding:17px 614px 63px 0px;
+}
+
+.banner-main-div a{
+  color: #ffffff;
+  text-decoration: none;
+  padding: 17px 52px;
+  border-radius: 25px;
+  background-image: linear-gradient( to right,
+   #38AF67,#EAFF00 );
+}
+ 
+/* card sec */
+
+ .card-main-div{
+display: flex;
+justify-content: space-between;
+ }
+
+.card-main-div h2{
+border: 2px #5DBD77 solid;
+text-align: center;
+padding: 37px 63px;
+border-radius: 7px;
+margin-top:-4.50px;
+}
+
+.card-main-div {
+ margin-top: 105px;
+}
+
+/*  Our Governmental Agricultural Schemes  */
+
+.Governmental{
+background-image: linear-gradient(to right ,rgba(0, 0, 0, 0.37) ,rgba(0, 0, 0, 0.2) )  , url(../image/banner2.svg) ;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 0px 0px 236px 0px;
+margin-top: 50PX;
+}
+
+.Governmental-main-div{
+text-align: center;
+}
+
+   .Governmental-main-div h2{
+      font-family: 'Times New Roman', serif;
+      font-size: 48px;
+      font-weight: 500;
+      color: #FFFFFF;
+      padding: 151px 0px 30px 0px;
+   }
+
+   /* Who Are We */
+
+   .are-sec{
+background-image: url(../image/banner3.svg);
+margin-top: 25px;
+padding-bottom: 106px;
+   }
+
+   .are-main-div{
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .are-child-div1::before{
+      content: "";
+      background-image: url(../image/dot.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 448px;
+      height: 337px;
+      position:absolute;
+      z-index: -1;
+      /* transform: rotate(-111deg); */
+      margin: -40px 0px 0px -100px;
+   }
+  
+   .img-1{
+     padding-top: 50px;
+      padding-left: 77px;
+      position: absolute;
+      z-index:-1;
+   }
+   .img-2{
+    padding: 400px 0px 0px 0px ;
+   }
+
+   .img-3{
+      padding-left: 190px;
+      margin-bottom: 23px;
+      margin-top: 42px;
+   }
+   .are-child-div p{
+      max-width: 651px;
+     margin: 39px 0px;
+  letter-spacing: 3px;
+  line-height: 39px;
+   }
+   
+   .are-inner-child{
+display: flex;
+justify-content: space-between;
+   }
+
+   .fa-trophy{
+      width: 50px;
+      height: 42px;
+      color: rgba(36, 130, 73, 1);
+   }
+
+   .fa-users{
+      width: 50px;
+      height: 42px;
+      color: rgba(36, 130, 73, 1);
+   }
+
+   .fa-bullhorn{
+      width: 50px;
+      height: 42px;
+      color: rgba(36, 130, 73, 1);
+   }
+
+   .are-inner-child{
+      margin-top: 79px;
+   }
+/* ?????????????--linear--????????????????? */
+.fa-trophy{
+   background-color: transparent;
+   box-shadow:0px 0px 76px 10px rgba(56, 175, 103, 0.66);
+   position: relative;
+   z-index: -1;
+}
+
+
+   .are-inner-child-1 span {
+      font-family: 'Times New Roman', serif;
+      font-size: 22px;
+      font-weight: 400;
+     
+   }
+   .are-inner-child-1 h3{
+      color:#008735 ;
+      font-family: 'Times New Roman', serif;
+      font-size: 45px;
+      font-weight: 400;
+      padding-left: 110px;
+   }
+
+   /* -Our Services */
+
+   .services-sec h2{
+margin-top: 61px;
+margin-left: 15px;
+   }
+
+   .services-sec h2::before{
+      content: "";
+      width: 10px;
+      height: 5px;
+      background-color: rgba(36, 130, 73, 1);
+      margin: 25px 0px 0px -15px;
+      position: absolute;
+         }
+
+.services-main-div{
+display: flex;
+justify-content: space-between;
+margin-top: 88px;
+margin-bottom: 84px;
+}
+
+.fa-tractor{
+   color: #FFFFFF;
+   background-color: #008735;
+   padding: 15px 15px ;
+   border-radius: 100%;
+   border: #FFFFFF solid 5px ;
+   position: absolute;
+   margin: 440px 0px 0px -220px;
+}
+
+.fa-wheat-awn{
+   color: #FFFFFF;
+   background-color: #008735;
+   padding: 15px 15px ;
+   border-radius: 100%;
+   border: #FFFFFF solid 5px ;
+   position: absolute;
+   margin: 440px 0px 0px -220px;
+}
+
+.fa-pagelines{
+   color: #FFFFFF;
+   background-color: #008735;
+   padding: 15px 15px ;
+   border-radius: 100%;
+   border: #FFFFFF solid 5px ;
+   position: absolute;
+   margin: 440px 0px 0px -220px;
+}
+
+.services-child-div h3{
+   padding: 42px 42px;
+   font-family: 'Times New Roman', serif;
+   font-size: 20px;
+   font-weight: 500;
+   text-align: center;
+   border-bottom-left-radius: 12px;
+   border-bottom-right-radius: 12px;
+   box-shadow: 0px 0px 10px grey;
+   margin-top: -15px;
+}
+
+/*  Visit Our Store */
+
+.store-sec{
+   background-image:url(../image/banner4.svg) ;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: #6CBE02;
+}
+
+.store-main-div{
+   display: flex;
+   justify-content: space-between;
+}
+
+.store-child-div h2{
+   font-family: 'Times New Roman', serif;
+   font-size: 48px;
+   font-weight: 500;
+   color: #FFFFFF;
+   margin-top: 137px;
+}
+
+.store-child-div p{
+   font-family: 'Times New Roman', serif;
+   font-size: 20px;
+   font-weight: 400;
+   color: #FFFFFF;
+   max-width: 464px;
+   margin: 50px 0px;
+   line-height: 191%;
+}
+
+.store-child-div1 img{
+   background-color: #FFFFFF;
+   width: 251px;
+   height: 220px;
+padding: 25PX 25px;
+border-radius: 7px;
+margin: 248px 5px 0px 5px;
+}
+
+.btn ul li{
+  list-style: none;
+   margin-bottom: 60px;
+   
+}
+
+.store-child-div1{
+   display: flex;
+   justify-content: space-around;
+}
+.inner-child-div-2{
+   background-color: #248249;
+   margin:-10px 5px 155px 5px;
+   padding-bottom: 40px;
+   border-bottom-left-radius:7px ;
+   border-bottom-right-radius: 7px;
+}
+
+.inner-child-div h3{
+   color: #ffffff;
+   font-size: 25px;
+   padding: 21px;
+}
+
+.fa-star{
+   color: rgba(249, 194, 94, 1);
+   font-size: 15px;
+}
+
+.star{
+   color: #ffffff;
+}
+
+.span-1{
+   font-size: 10px;
+   color: rgba(255, 255, 255, 0.58);
+   padding-left: 21px;
+   text-decoration: line-through;
+}
+
+.span-2{
+   color: #ffffff;
+   font-size: 15px;
+   padding: 0px 75px 0px 10px;
+}
+
+/* Let Us Know About Your Agricultural Problem */
+
+.about-sec{
+   background-image:linear-gradient(to right ,rgba(93, 189, 119, 0.54),rgba(249, 194, 94, 0.52))  , url(../image/banner5.svg) ;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+   padding:161px 0px 355px 0px ;
+}
+
+.about-main-div h2{
+   font-family: 'Times New Roman', serif;
+   font-size: 48px;
+   font-weight: 500;
+   color: #FFFFFF;
+   padding: 0px 300px;
+}
+
+.about-btn{
+   margin-top: 102px;
+}
+
+/* Our Project Gallery */
+
+.project-top-div h2{
+   text-align: center;
+   margin-top: 80px;
+   margin-bottom: 19px;
+}
+.project-top-div p{
+   text-align: center;
+  padding: 0px 185px ;
+line-height: 170%;
+letter-spacing: 3px;
+}
+
+.project-main-div{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 60px;
+   
+}
+
+.project-child-div{
+   width: 426px;
+   height: 622px;
+}
+
+.project-main-div::before{
+   content: "";
+   width: 1370px;
+   height: 105px;
+   border-radius: 100%;
+   background-color: #ffffff;
+   display: block;
+   position: absolute;
+   margin: -45px 0px 0px -25px;
+}
+
+.project-main-div::after{
+   content: "";
+   width: 1370px;
+   height: 105px;
+   border-radius: 100%;
+   background-color: #ffffff;
+   display: block;
+   position: absolute;
+   margin: 555px 0px 0px -25px;
+}
+
+/* Our Testimonials */
+
+.Testimonials-sec{
+   background-image: url(../image/banner6.svg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: #FFC761;
+   margin-top: 40px;
+}
+
+.testimonials-top-div h2{
+text-align: center;
+font-family: 'Times New Roman', serif;
+font-size: 45px;
+font-weight: 400;
+color: #FFFFFF;
+padding-top: 51px;
+}
+
+.testimonials-top-div p{
+   text-align: center;
+   font-family: 'Times New Roman', serif;
+   font-size: 22px;
+   font-weight: 400;
+   color: #FFFFFF;
+   padding: 20px 0px 60px 0px;
+   }
+
+.testimonials-main-div{
+   display: flex;
+   justify-content: center;
+}
+
+.testimonials-child-div i{
+   font-size: 50px;
+   color: #FFFFFF;
+  display: block;
+  margin: 30px 0px 0px 0px;
+}
+
+.testimonials-child-div p{
+   max-width: 696px;
+   font-family: 'Times New Roman', serif;
+   font-size: 30px;
+   font-weight: 400;
+   color: #FFFFFF;
+   line-height:191% ;
+   padding: 20px 0px 143px 43px;
+}
+
+.testimonials-child-div h3{
+   font-family: 'Times New Roman', serif;
+   font-size: 36px;
+   font-weight: 400;
+   color: #FFFFFF;
+   padding: 35px 0px 0px 43px;
+}
+
+/* News & Articles */
+
+.Articles-sec{
+ 
+  
+}
+
+.Articles-top-div{
+   text-align: center;
+   padding-top: 54px;
+}
+
+.Articles-main-div{
+   display: flex;
+   justify-content: space-around;
+   
+}
+/* ???????????????????????? */
+/* .Articles-sec::before{
+   content: "";
+   background-image: url(../image/articales-1.svg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: absolute;
+   display: block;
+   width: 655px;
+   height: 588px;
+   z-index: -1;
+   margin: 1px 0px 0px 0px ;
+} */
+
+/* .Articles-sec::after{
+   content: "";
+   background-image: url(../image/aaaaaaaaaaa.svg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: absolute;
+   display: block;
+   float: right;
+   width: 655px;
+   height: 588px;
+   z-index: -1;
+   margin: 3px 0px 0px 0px ;
+   transform: rotate(-155deg);
+   }
+    */
+    /* ????????????????????????????????????????????? */
+   .Articles-child-div h3{
+      width: 281px;
+      font-family: 'Times New Roman', serif;
+      font-size: 28px;
+      font-weight: 400;
+      color: #000000; 
+      margin-bottom: 8px;
+      margin-top: 54px;
+   }
+
+.Articles-child-div p{
+   width: 270px;
+   margin-bottom: 39px;
+   font-family: 'Times New Roman', serif;
+   font-size: 16px;
+   font-weight: 400;
+   color: #000000; 
+   line-height: 35px;
+}
+
+.Articles-child-div{
+   margin-top: 250px;
+   width: 350px;
+   height: 460px;
+   padding: 27px;
+      box-shadow: 0px 0px 10px grey;
+      border-radius: 10px;
+}
+
+.articales-child-middel-div{
+   margin-top: 300px;
+}
+
+.Articles-child-div span a{
+   font-family: 'Arial', sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   color: #000000;
+   padding: 0px 90px 0px 50px;
+}
+
+.Articles-child-div span{
+   color: rgba(36, 130, 73, 1);
+   font-family: 'Arial', sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+}
+
+.articles-booten-div a{
+   font-family: 'Times New Roman', serif;
+   font-size: 24px;
+   font-weight: 400;
+   color: #FFFFFF;
+   text-decoration: none;
+   padding: 18px 52px;
+   background-color: #248249;
+   border-radius: 18px;
+   float: right;
+}
+
+.articles-booten-div {
+   padding-bottom: 62px;
+   padding-top: 55px;
+}
+
+
+/* DOWNLOAD AGRIGROW APP NOW */
+
+.download-sec{
+   margin-top: 14px;
+   padding: 74px 0px 114px 0px;
+}
+
+.download-main-div{
+   display: flex;
+   justify-content: space-between;
+}
+
+.download-child-div h2{
+   font-family: 'Times New Roman', serif;
+   font-size: 45px;
+   font-weight: 500;
+   margin-top: 115px;
+}
+
+.download-child-div p{
+   font-family: 'Times New Roman', serif;
+   font-size: 20px;
+   font-weight: 400;
+   margin: 23px 0px;
+}
+
+.download-img-1{
+   margin-bottom: 45px;
+}
+   
+.download-button-div input{
+   padding:15px 223px 15px 36px;
+   background-color: rgba(217, 217, 217, 0.4);
+   border: none;
+   border-radius: 14px;
+   margin-left: -20px;
+   font-family: 'Times New Roman', serif;
+   font-size: 16px;
+   font-weight: 400;
+   color: rgba(0, 0, 0, 1);
+}
+
+.download-button-div label{
+   padding: 15px;
+   background-color: rgba(209, 209, 209, 1);
+   border-radius: 14px; 
+  margin-left: 5px;
+}
+
+.download-button-div a{
+   color: rgba(36, 130, 73, 1);
+   border: 1px rgba(36, 130, 73, 1) solid;
+   padding:5px 20px ;
+   border-radius: 14px;
+   text-decoration: none;
+   position: absolute;
+   margin:7px 0px 0px -145px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* button{
+   padding: 15px;
+   border: none;
+   border-radius: 14px;
+}
+
+button a{
+   padding: 10px;
+   margin-left: 115px;
+} */
+
+
+/* footer-sec */
+
+.footer{
+   background-image: url(../image/footer-bennar.svg);
+   background-color: #248249;
+   padding-top: 50px;
+   padding-bottom: 123px;
+}
+
+.footer-main-div{
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer-child-div p{
+max-width: 270px;
+height: 112px;
+margin-top: 11px;
+font-family: 'Times New Roman', serif;
+font-size: 16px;
+font-weight: 400;
+color: #FFFFFF;
+}
+
+.a{
+   padding: 16.60px 18px;
+   background-color: #FFFFFF;
+   border-top-left-radius: 8px;
+   border-bottom-left-radius: 8px;
+   text-decoration: none;
+   color: rgba(0, 0, 0, 0.49);
+}
+
+.footer-child-div span a i{
+   color: #FFFFFF;
+   padding:17px 18px 18px 18px;
+   border-top-right-radius: 8px;
+   border-bottom-right-radius: 8px;
+   background-color: rgba(249, 194, 94, 1);
+}
+
+.footer-child-div ul li{
+   padding: 10px 0px;
+   list-style: none;
+}
+
+.footer-child-div ul a{
+text-decoration: none;
+font-family: 'Times New Roman,' serif;
+   font-size: 18px;
+   font-weight: 400;
+   color: #FFFFFF;
+}
+
+.footer-head {
+margin-bottom: 50px;
+font-family: 'Times New Roman', serif;
+font-size: 25px;
+font-weight: 400;
+color: #FFFFFF;
+}
+
+.footer-child-div i{
+   margin-right: 5px;
+}
+
